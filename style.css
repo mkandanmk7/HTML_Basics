@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_container {
+  background-color: lightseagreen;
+  padding: 20px;
+  height: 100vh;
+}
+.heading {
+  font-size: 50px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.content {
+  font-size: 20px;
+  color: rgb(68, 62, 62);
+}
+#submit_btn {
+  text-align: center;
+  margin-top: 20px;
+}
+#submit_btn > button {
+  text-align: center;
+  padding: 15px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 8px;
+  background-color: indigo;
+  color: azure;
+}
+#submit_btn > button:hover {
+  cursor: pointer;
+  background-color: rgb(111, 24, 173);
+}
