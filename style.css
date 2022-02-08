@@ -47,6 +47,12 @@
   box-shadow: 5px 5px 20px red;
   transition: 0.25s ease-in-out;
 }
+/* 0-255 */
+/* 0 1 2 9 A B C D E F   hex  color code   */
+.color {
+  background-color: rgba(155, 126, 30, 0.637);
+  height: 80px;
+}
 #submit_btn > button:hover {
   cursor: pointer;
   background-color: rgb(111, 24, 173);
